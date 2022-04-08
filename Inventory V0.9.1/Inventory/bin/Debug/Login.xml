@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Login>
+  <Instance>RAMESH\SQLEXPRESS</Instance>
+  <Database>Inventory</Database>  
+  <Authentication>Windows Authentication</Authentication>
+</Login>

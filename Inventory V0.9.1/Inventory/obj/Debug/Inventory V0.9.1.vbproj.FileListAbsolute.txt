@@ -1,0 +1,13 @@
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Home.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Inward.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Master.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Min_Qty.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Resources.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory.Qty_Check.resources
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory V0.9.1.vbproj.GenerateResource.Cache
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\bin\Debug\Inventory V0.9.1.exe
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\bin\Debug\Inventory V0.9.1.pdb
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\bin\Debug\Inventory V0.9.1.xml
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory V0.9.1.exe
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory V0.9.1.xml
+D:\ArUn\VB.Net\Palaniappa\Inventory V0.9.1\Inventory\obj\Debug\Inventory V0.9.1.pdb
