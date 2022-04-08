@@ -1,0 +1,43 @@
+([Product].[Bprice]*[Product].[Uprice])
+
+
+(iif(Pid=2, qty,13) ))
+
+SELECT 
+             CASE 
+                  WHEN EMP_NUM =1234 
+                     THEN 'MONICA' 
+                  WHEN  EMP_NUM =5678
+                  then 'JOE' 
+                  .
+                  .
+                  .
+              END as EMPNAME,EMP_NUM, COLUMN1, COLUMN2
+FROM LOGGINGTABL
+(case [Uprice] when (0) then [Pgst] when (1) then [Pmrp] else [Pcom] end)
+
+
+(case [Stock].[Sid]  when (2) then [Bprice]*[Uprice] when (1) then [Pmrp] else [Pcom] end)
+
+
+Update [Product]  set [Product].[qty]=[Product].[qty] + [Stock].[Qty] from [Product] INNER JOIN [Stock] ON [Product].[Pid] = [Stock].[Pid] 
+
+UPDATE [Product] SET [Product].[Qty] = t2.field2Sum FROM [Product]  t1 INNER JOIN (select [Pid], sum([Qty]) as field2Sum from [Stock] group by [Pid]) as t2 on t2.[Pid] = t1.[Pid]
+
+UPDATE [Product] SET [Product].[Qty] = t2.field2Sum - t3.field3Sum FROM [Product] t1 INNER JOIN (select [Pid], sum([Qty]) as field2Sum from [Stock] group by [Pid]) as t2 on t2.[Pid] = t1.[Pid] INNER JOIN (select [Pid], sum([Qty]) as field3Sum from [Sales_gst] group by [Pid]) as t3 on t3.[Pid] = t1.[Pid]
+
+
+
+UPDATE t1
+
+SET t1.field1 = t2.field2Sum
+
+FROM table1 t1
+
+INNER JOIN (select field3, sum(field2) as field2Sum
+
+   from table2
+
+  group by field3) as t2
+
+on t2.field3 = t1.field3  
